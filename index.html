@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="video-container">
+        <!-- Embed the YouTube video using an iframe -->
+        <iframe width="560" height="315" src="https://youtu.be/p0Lm0xWaKkw" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <button id="start-quiz">Start Quiz</button>
+
+    <div class="quiz-container" style="display: none;">
+        <!-- Quiz content goes here -->
+        <h1>Quiz Time!</h1>
+        <div id="question"></div>
+        <div id="options"></div>
+        <button id="submit">Submit</button>
+        <div id="result"></div>
+    </div>
+
+    <!-- Include the questions.js script before script.js -->
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
