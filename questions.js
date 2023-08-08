@@ -1,0 +1,1 @@
+const questions = [{'question': "Which of the following best describes 'Neerakshi'?", 'options': ['Autonomous underwater vehicle', 'Water purification system DRDO', 'Drip Irrigation System by ICAR', 'Drought resistant rice'], 'correctAnswer': 0, 'userAnswerIndex': -1}];
